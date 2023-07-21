@@ -24,7 +24,7 @@ public class ConnectionProvider {
 
 	// connection pooling 기능을 사용한 connection
 	// connection 제공해주면 된다.
-	public static Connection getConnection() throws SQLException {
+	public Connection getConnection() throws SQLException {
 		return ds.getConnection();
 	}
 
